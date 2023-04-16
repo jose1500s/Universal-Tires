@@ -1,0 +1,36 @@
+.servicios {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .servicios:hover {
+    transform: scale(1.05);
+  }
+  
+  .servicios img {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .servicios:hover img {
+    filter: brightness(80%);
+    transform: scale(1.1);
+  }
+  
+  .servicios h1,
+  .servicios p,
+  .servicios a {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .servicios:hover h1 {
+    color: #4b5563;
+  }
+  
+  .servicios:hover p {
+    color: #6b7280;
+  }
+  
+  .servicios:hover a {
+    color: #2b6cb0;
+  }
