@@ -34,3 +34,22 @@
   .servicios:hover a {
     color: #2b6cb0;
   }
+:root {
+    --brand-color: #EA3F45;
+    --darkest-color: #0C1115;
+    --dark-color: #153249;
+    --mid-color: #235789;
+    --light-color: #F3F4F5;
+    --lightest-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--lightest-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#myTabContent {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
